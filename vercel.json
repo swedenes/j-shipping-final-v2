@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/shipping.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/shipping", "dest": "api/shipping.js" }
+  ]
+}
